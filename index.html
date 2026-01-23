@@ -2,78 +2,103 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <title>Raphael Simon - Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raphael Simon Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/r.jpg">
 </head>
 <body>
 
-    <nav>
-        <div class="logo">RAPHAEL SIMON</div>
-        <ul>
-            <li><a href="#about">À propos</a></li>
-            <li><a href="#projects">Projets</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<nav>
+    <div class="logo">RAPHAEL SIMON</div>
+    <ul>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-    <header id="about" class="section">
-        <div class="container">
-            <h1>Bonjour, je suis Raphael.</h1>
-            <p class="subtitle">Etudiant en BTS SIO SLAM 1ere année</p>
-            <div class="about-text">
-                <p>Passionné par l'informatique et plus précisement le devellopement j'ai toujours voulu travailler dans ce domaine pour créer et concevoir des solutions pour transformer des idées en projets aboutis. </p>
-            </div>
-        </div>
-    </header>
+<!-- À PROPOS -->
+<section id="about" class="section">
+    <div class="container">
+        <h1>Bonjour, je suis Raphael</h1>
+        <p class="subtitle">Étudiant en BTS SIO SLAM – 1ʳᵉ année</p>
+        <p>
+            Passionné par l’informatique et le développement, j’aime créer
+            des solutions concrètes pour transformer des idées en projets.
+        </p>
+    </div>
+</section>
 
-    <section id="projects" class="section bg-light">
-        <div class="container">
-            <h2>Mes Projets</h2>
-            <div class="project-grid">
-                <a href="fenetre.html"><div class="project-card">
-                    <div class="project-image">
-                        <img src="images/fenetre1.jpg" alt="fenêtre automatisée">
-                    </div>
-                    <div class="project-info">
-                        <h3>Fenêtre automatisée</h3>
-                        <p>Arduino</p>
-                    </div>
-                </div></a>
-                <a href="sitephoto.html"><div class="project-card">
-                    <div class="project-image">
-                        <img src="images/site.png" alt="Site pour la photographie">
-                    </div>
-                    <div class="project-info">
-                        <h3>Site pour photographie</h3>
-                        <p>HTML / CSS</p>
-                    </div>
-                </div></a>
-                <a href="magasin.html"><div class="project-card">
-                    <div class="project-image">
-                        <img src="images/magasin.png" alt="Aplli de gestion de magasin">
-                    </div>
-                    <div class="project-info">
-                        <h3>Aplli de gestion de magasin</h3>
-                        <p>C++ / appli console</p>
-                    </div>
-                </div></a>
-            </div>
-        </div>
-    </section>
+<!-- PROJETS -->
+<section id="projects" class="section bg-light">
+    <div class="container">
+        <h2>Mes projets</h2>
 
-    <footer id="contact">
-        <div class="container">
-            <p>Mon profil vous plaits ?</p>
-            <a class="email-link">raphsm21@gmail.com</a>
-            <div class="socials">
-                <a href="https://www.linkedin.com/in/raphael-simon-737892348" >LinkedIn</a> / <a href="https://github.com/RaphSM2536">GitHub</a>
+        <!-- Fenêtre automatisée -->
+        <article id="fenetre" class="project-card">
+            <div class="project-hero-image">
+                <img src="images/fenetre1.jpg" alt="Fenêtre automatisée">
             </div>
+            <div class="project-info">
+                <h3>Fenêtre automatisée</h3>
+                <p>Arduino / App mobile / HTML-CSS</p>
+                <p>
+                    Projet visant à automatiser l’ouverture et la fermeture d’une
+                    fenêtre pour éviter les oublis et les pertes d’énergie.
+                </p>
+                <p>
+                    Contrôle via un site web et une application mobile,
+                    gérés par une carte Arduino.
+                </p>
+            </div>
+        </article>
+
+        <!-- Site pour photographie -->
+        <article id="photo" class="project-card">
+            <div class="project-hero-image">
+                <img src="images/site.png" alt="Site pour photographie">
+            </div>
+            <div class="project-info">
+                <h3>Site pour photographie</h3>
+                <p>HTML / CSS</p>
+                <p>
+                    Page web présentant ma passion pour la photographie.
+                    Capture d’écran de la page principale expliquant mon projet.
+                </p>
+            </div>
+        </article>
+
+        <!-- Appli de gestion de magasin -->
+        <article id="magasin" class="project-card">
+            <div class="project-hero-image">
+                <img src="images/magasin2.png" alt="Appli de gestion de magasin">
+            </div>
+            <div class="project-info">
+                <h3>Appli de gestion de magasin</h3>
+                <p>C++ / Console</p>
+                <p>
+                    Application console pour gérer les produits d’un magasin.
+                    Ajout, suppression et suivi des stocks selon les ventes
+                    ou les livraisons.
+                </p>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<footer id="contact">
+    <div class="container">
+        <p>Mon profil vous plaît ?</p>
+        <a class="email-link" href="mailto:raphsm21@gmail.com">raphsm21@gmail.com</a>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/raphael-simon-737892348">LinkedIn</a> /
+            <a href="#">GitHub</a>
         </div>
-    </footer>
+    </div>
+</footer>
 
 </body>
-
 </html>
-
